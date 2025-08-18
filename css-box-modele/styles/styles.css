@@ -1,0 +1,14 @@
+h1{
+    background-color: #DDE0E3; /* Light gray */
+    padding: 50px;
+    border-bottom: 1px solid #5d6063; /* Dark gray */
+}
+em, strong {
+    background-color: #B2D6FF; /* Light blue */
+    display: inline;
+}
+p {
+    background-color: #DDE0E3; /* Light gray */
+    padding: 20px 0px 20px 10px; /* top, right, bottom, left */
+    margin-bottom: 50px;
+}
