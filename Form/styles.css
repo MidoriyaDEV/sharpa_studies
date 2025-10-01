@@ -41,12 +41,15 @@ body {
 .speaker-form {
   margin-bottom: 40px;
 }
+
+/* Validação de inputs */
 .form-row input[type='text']:invalid,
 .form-row input[type='email']:invalid {
   border: 1px solid #D55C5F;
   color: #D55C5F;
-  box-shadow: none; /* Remove default red glow in Firefox */
+  box-shadow: none; /* Remove o glow vermelho padrão do Firefox */
 }
+
 /* Estrutura do formulário */
 .form-row {
   margin-bottom: 40px;
@@ -70,6 +73,22 @@ body {
   width: 100%;
   padding: 7px;
   font-size: 14px;
+}
+
+/* Botão */
+.form-row button {
+  background-color: #5D6063;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-row button:hover {
+  background-color: #454749;
 }
 
 /* Responsividade */
