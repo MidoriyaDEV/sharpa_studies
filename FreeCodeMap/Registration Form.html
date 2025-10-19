@@ -18,11 +18,19 @@
         <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
         <label for="new-password">Create a New Password: <input id="new-password" type="password" required
                 pattern="[a-z0-5]{8,}" /></label>
-    </fieldset>
-    <legend>Account type (required)</legend>
-    <label for="Personal"><input type="radio" name="account-type" checked>Personal</label>
-    <label for="Business"><input type="radio" name="account-type">Business</label>
-    <fieldset>
+        <fieldset>
+            <legend>Account Type</legend>
+
+            <label for="personal-account">
+                <input type="radio" id="personal-account" name="account-type">
+                Personal
+            </label>
+
+            <label for="business-account">
+                <input type="radio" id="business-account" name="account-type">
+                Business
+            </label>
+        </fieldset>
         <!-- Section 2 -->
     </fieldset>
 
