@@ -30,4 +30,9 @@ form {
 fieldset {
     border: none;
     padding: 2rem 0;
+    border-bottom: 3px solid rgb(59, 59, 79);
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
 }
