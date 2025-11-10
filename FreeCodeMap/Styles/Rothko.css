@@ -19,6 +19,7 @@
     margin: 20px auto;
     padding: 1px;
     box-shadow: 0 0 3px 3px #efb762;
+    border-radius: 9px;
   }
   .two {
     width: 475px;
