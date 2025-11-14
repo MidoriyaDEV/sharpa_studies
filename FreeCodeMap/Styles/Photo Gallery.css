@@ -32,7 +32,6 @@ body {
 .gallery::after {
     content: "";
     width: 350px;
-    height: 0px;
 }
 
 .gallery img {
